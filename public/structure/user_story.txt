@@ -1,0 +1,27 @@
+story of the game : 
+
+there will be three cars in the game 
+and each car represented a country flag  ( a country ) 
+they will be on at the start of the screen on the road facing up, and there will be a flag
+at the end of the road for each car facing towards it.
+There will be count numbers for each flag on or on top of the flag when the user or client donates a flag, donut, or heart. will increase the represented flag number
+that way when the user donates teen (10) flowers the counter will become one (1)
+
+if user-donates 10 becomes 1  = 10 cent 
+if user-donates  100 becomes 10 = 1 euro
+if user-donates 1000 becomes 100 = 10 euro 
+if user-donates 10000 becomes 1000 = 100 euro 
+
+
+
+country's : 
+
+1 - turkey 
+2 - Syria 
+3 - Kurdistan 
+
+
+with flags : true 
+with ai voice chat : true
+with counting : true
+

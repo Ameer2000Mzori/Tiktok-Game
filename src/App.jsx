@@ -1,12 +1,20 @@
-import { Canvas } from "@react-three/fiber";
-import { Experience } from "./components/Experience";
+import { Provider } from "react-redux";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+import store from "./store";
+import GameCanvas from "./components/GameCanvas";
+export const GAMEBOARD_LENGTH = 86;
+export const SCROLL_SPEED = 35;
+
+const queryClient = new QueryClient();
 
 function App() {
   return (
-    <Canvas shadows camera={{ position: [3, 3, 3], fov: 30 }}>
-      <color attach="background" args={["#ececec"]} />
-      <Experience />
-    </Canvas>
+    <Provider store={store}>
+      <QueryClientProvider client={queryClient}>
+        <GameCanvas />
+      </QueryClientProvider>
+    </Provider>
   );
 }
 
