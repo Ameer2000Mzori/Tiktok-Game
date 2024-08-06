@@ -1,20 +1,3 @@
-# about this project in short :
-
-this project is made by Ameer Mohammed Ameen , its a tiktok game where we connect tiktok coins and donations to the game / project we have build.
-
-# important commands :
-
-the conversation of a glb (GLB) model to a component type the following command
-
-npx gltfjsx public/models/you_model_name.glb -o src/components/you_model_name.jsx -r public
-
-add play room kit :
-
-yarn add playroomkit
-
-      rotation={[0, -1.572, 0]}
-      position={[-4.5, -0.5, -5]}
-
 # r3f-vite-starter
 
 A boilerplate to build R3F projects
